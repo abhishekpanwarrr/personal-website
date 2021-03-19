@@ -1,0 +1,44 @@
+.work{
+    margin: 80px 150px;
+}
+.work > h1{
+    font-size: 22px;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-left: -45px;
+    text-decoration: underline;
+}
+.work__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+@media screen and (max-width: 600px) {
+    .work{
+        width: 100vw;
+    }
+    .work > h1{
+        margin: 0 !important;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .work__container{
+        grid-template-columns: 1fr;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .work{
+        width: 100vw;
+        margin: 0 !important;
+    }
+    .work > h1{
+        margin: 0 !important;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .work__container{
+        grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,48 @@
+.job{
+    margin: 80px 150px;
+}
+.job > h1{
+    font-size: 22px;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-left: -45px;
+    text-decoration: underline;
+}
+.job__container{
+    margin: 100px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+@media screen and (max-width: 992px) {
+    .job{
+        /* margin-bottom: 40px !important; */
+    }
+    .job > h1{
+        margin: 0 !important;
+        padding: 20px 30px 35px 30px;
+        text-align: center;
+    }
+    .job__container{
+        margin: 0;
+        grid-template-columns: 1fr ; 
+        margin: 0 0 50px 0 !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .job{
+        margin: 0 !important;
+        margin-bottom: 40px;
+    }
+    .job > h1{
+        margin: 0 !important;
+        padding: 20px 30px 35px 30px;
+        text-align: center;
+    }
+    .job__container{
+        margin: 0;
+        grid-template-columns: 1fr ; 
+        margin: 0 0 50px 0 !important;
+    }
+  }

@@ -1,0 +1,136 @@
+.profile{
+    margin: 80px 150px;
+}
+.profile > h3{
+    font-size: 22px;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-left: -45px;
+    text-decoration: underline;
+}
+.profile__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.profile__experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efefef;
+    padding: 50px 40px;
+    box-sizing: border-box;
+}
+.profile__experience > h3{
+    margin-bottom: 30px;
+}
+.profile__ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 50px;
+}
+.awards{
+    margin-top: 35px;
+}
+.none_border{
+    border: none !important;
+}
+ul li {
+    list-style-type: none;
+    margin: 0 0 10px 0;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    line-height: 1.4;
+    color: #606060;
+    font-weight: 600 !important;
+}
+
+.profile__bold{
+    font-size: 16px;
+    font-weight: 600 !important;
+    color: #000000;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin: 20px 0 0 0;
+}
+.proflie__first{
+    padding: 20px 40px;
+}
+.profile__container > div > p{
+    font-size: 15px;
+    color: #606060;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    .profile{
+        width: 100vw;
+        margin:  0 !important;
+    }
+    .profile > h3{
+        margin: 0 !important;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .profile__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+    .profile__experience{
+        margin: 0;
+    }
+    .profile__ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .awards{
+        text-align: center;
+    }
+    .profile__experience > h3{
+       text-align: center;
+    }
+    ul li {
+        text-align: center !important;
+        
+    }
+  }
+  
+  @media screen and (max-width: 992px){
+    .profile{
+        width: 100vw;
+        margin:  0 !important;
+    }
+    .profile > h3{
+        margin: 0 !important;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .profile__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+    .profile__experience{
+        margin: 0;
+    }
+    .profile__ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .awards{
+        text-align: center;
+    }
+    .profile__experience > h3{
+       text-align: center;
+    }
+    ul li {
+        text-align: center !important;
+        
+    }
+  }

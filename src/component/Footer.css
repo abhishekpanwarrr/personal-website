@@ -1,0 +1,125 @@
+.footer{
+    background-color: #3333FF;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__boxImage{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.footer__boxImage > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+.footer__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__box > a{
+    margin-top: 30px;
+    font-size: 42px;
+    position: relative;
+    font-family: Roboto;
+    /* font-size: 24px; */
+    color: #FFFFFF;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer__box > a::before{
+    content: "";
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 2px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footer__box > a:hover{
+    transform: scale(1.1);
+}
+.footer__bottom{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: -60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__bottomLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__bottomLeft > a{
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+.footer__bottomRight> p{
+    margin: 5px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+.footer__box > a{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.footer__box > a::before{
+    content: "";
+    position: relative;
+    display: block;
+    height: 30px;
+    width: 2px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footer__bottom{
+    flex-direction: column;
+}
+.footer__bottomLeft{
+    flex-direction: column;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .footer__box > a{
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .footer__box > a::before{
+        content: "";
+        position: relative;
+        display: block;
+        height: 30px;
+        width: 2px;
+        background: #FFFFFF;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .footer__bottom{
+        flex-direction: column;
+    }
+    .footer__bottomLeft{
+        flex-direction: column;
+        border-bottom: 1px solid white;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    }
