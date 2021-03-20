@@ -16,21 +16,19 @@ export const Profile = () => {
                     <h3>WORK & EXPERIENCE</h3>
                     <div  className='profile__ul'>
                         <ul>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
+                            <li>Web Developer</li>
+                            <li>React Js</li>
+                            <li>Javascript</li>
+                            <li>Firebase</li>
                         </ul>
                         <ul>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
+                            <li>Firebase</li>
+                            <li>SQL</li>
                         </ul>
                     </div>
 
 
-                    <h3 className='awards'>WORK & EXPERIENCE</h3>
+                    {/* <h3 className='awards'>WORK & EXPERIENCE</h3>
                     <div  className='profile__ul none_border'>
                         <ul>
                             <li>Design & Content Lead</li>
@@ -44,7 +42,7 @@ export const Profile = () => {
                             <li>Design & Content Lead</li>
                             <li>Design & Content Lead</li>
                         </ul>
-                    </div>
+                    </div> */}
                    
                 </div>
             </div>
