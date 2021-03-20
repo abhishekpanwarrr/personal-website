@@ -8,7 +8,7 @@ function Footer() {
                <div className='footer__boxImage'>
                 <img src={FooterImage} alt='footer_image' />
                </div>
-                <a href="mailto:hello@jeremygoldberg.me" >abhishekpanwar1718@gmail.com</a>
+                <a href="mailto:abhishekpanwar1718@gmail.com" >abhishekpanwar1718@gmail.com</a>
             </div>
             <div className='footer__bottom'>
                 <div className='footer__bottomLeft'>
