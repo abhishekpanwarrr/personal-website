@@ -19,23 +19,22 @@ const useStyles = makeStyles({
 });
 
 
-export const Cards = () => {
+export const Cards = ({link,title,desc,img}) => {
   const classes = useStyles();
     return (
       <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="https://images.pexels.com/photos/6773313/pexels-photo-6773313.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          image={img}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2"  className='cards__name'>
-            Abhishek
+            {title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            {desc}
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -47,7 +46,9 @@ export const Cards = () => {
           variant="contained"
           color="default"
           startIcon={<SendIcon />}
-          className='button'
+          className='button' 
+          href={link}
+          target='_blank'
         >Know More</Button>
 
         {/* <Button

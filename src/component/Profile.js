@@ -13,36 +13,38 @@ export const Profile = () => {
                     <p>Also, please do care to look at my experience and awards I received over a decade of my very beaufiful career.</p>
                 </div>
                 <div className='profile__experience'>
-                    <h3>WORK & EXPERIENCE</h3>
+                    <h3>SKILLS</h3>
                     <div  className='profile__ul'>
                         <ul>
-                            <li>Web Developer</li>
+                            <li className='profile__underline'>Technologies</li>
                             <li>React Js</li>
                             <li>Javascript</li>
                             <li>Firebase</li>
                         </ul>
                         <ul>
-                            <li>Firebase</li>
+                            <li className='profile__underline'>Languages</li>
                             <li>SQL</li>
+                            <li>Javascript</li>
+                            <li>Wordpress</li>
                         </ul>
                     </div>
 
 
-                    {/* <h3 className='awards'>WORK & EXPERIENCE</h3>
+                    <h3 className='awards'></h3>
                     <div  className='profile__ul none_border'>
                         <ul>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
+                            <li className='profile__underline'>Platforms</li>
+                            <li>Firebase</li>
+                            <li>Android</li>
+                            <li>Linux</li>
                         </ul>
                         <ul>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
-                            <li>Design & Content Lead</li>
+                            <li className='profile__underline'>Back-end</li>
+                            <li>Node.js</li>
+                            <li>REST API</li>
+                            <li>Express</li>
                         </ul>
-                    </div> */}
+                    </div>
                    
                 </div>
             </div>

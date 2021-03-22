@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
-
+import { Link, animateScroll as scroll } from "react-scroll";
 export const Header = () => {
     return (
         <div className='header'>
@@ -11,9 +11,14 @@ export const Header = () => {
                 <h1>Abhishek Panwar</h1>
                 <h4>Developer & trouble shooter</h4>
                 <p>
-                Heart Winning Developer and Troubleshooter from Gurgaon. Check out my best works below or let's <a href='/aboutc'>start work</a>
+                Heart Winning Developer and Troubleshooter from Gurgaon. Check out my best works below or let's 
+                <Link to='footer' spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>
+                start work</Link>
                 </p>
-            <a href='/about'><ExpandMoreIcon/> </a>
+            <Link to='work' spy={true} smooth={true} offset={-70} duration={500}><ExpandMoreIcon/> </Link>
         </div>
     )
 }

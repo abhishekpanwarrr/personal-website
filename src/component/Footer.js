@@ -3,7 +3,7 @@ import './Footer.css'
 import FooterImage from '../11.jpg'
 function Footer() {
     return (
-        <div className='footer'>
+        <div className='footer' id='footer'>
             <div className='footer__box'>
                <div className='footer__boxImage'>
                 <img src={FooterImage} alt='footer_image' />
@@ -12,9 +12,9 @@ function Footer() {
             </div>
             <div className='footer__bottom'>
                 <div className='footer__bottomLeft'>
-                    <a href='about'>Facebook</a>
-                    <a href='about'>Github</a>
-                    <a href='about'>Behance</a>
+                    <a href='/'>Facebook</a>
+                    <a href='/'>Github</a>
+                    <a href='/'>Behance</a>
                 </div>
                 <div className='footer__bottomRight'>
                     <p>152 Gurugram</p>

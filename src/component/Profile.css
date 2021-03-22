@@ -48,7 +48,10 @@ ul li {
     color: #606060;
     font-weight: 600 !important;
 }
-
+.profile__underline{
+    text-decoration: underline;
+    color: #0000FF;
+}
 .profile__bold{
     font-size: 16px;
     font-weight: 600 !important;
