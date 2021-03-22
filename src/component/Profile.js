@@ -30,7 +30,7 @@ export const Profile = () => {
                     </div>
 
 
-                    <h3 className='awards'></h3>
+                    {/* <h3 className='awards'></h3> */}
                     <div  className='profile__ul none_border'>
                         <ul>
                             <li className='profile__underline'>Platforms</li>
