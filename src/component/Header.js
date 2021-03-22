@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 export const Header = () => {
     return (
         <div className='header'>
